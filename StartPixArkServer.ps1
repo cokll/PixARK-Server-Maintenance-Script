@@ -76,9 +76,9 @@ $ServerStartArguments="CubeWorld_Light?listen?MaxPlayers="+$serverMaxPlayers+"?P
 Write-Host Checking config
 
 if (!(Test-Path $serverPath)){
-	Write-Host "Server path : $serverPath is invalid"
-	pause
-	exit
+	Write-Host "Server path : $serverPath not found"
+	Write-Host "Creating $serverPath"
+	New-Item -ItemType directory -Path $serverPath -ErrorAction SilentlyContinue
 }
 if (!(Test-Path $steamCMDExec)){
 	Write-Host "SteamCMD.exe not found at : $steamCMDExec"

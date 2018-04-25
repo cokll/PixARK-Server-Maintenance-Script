@@ -10,25 +10,25 @@ To run it manually right click on the script and select "Run with powershell"
 
 To configure your server type you need to edit the following after the server started once : 
 
-In : "C:\PixArk\ShooterGame\Saved\Config\WindowsServer\GameUserSettings.ini"
-Under : [ServerSettings]
+In : "C:\PixArk\ShooterGame\Saved\Config\WindowsServer\GameUserSettings.ini"  
+Under : [ServerSettings]  
 Add/Set one of those settings :
 
 For Pioneering :
 
-CanPVPAttack=False
+CanPVPAttack=False  
 ServerPVPCanAttack=False
 
 For Fury :
 
-ServerPVE=False
-CanPVPAttack=True
+ServerPVE=False  
+CanPVPAttack=True  
 ServerPVPCanAttack=False
 
 For Chaos:
 
-ServerPVE=False
-CanPVPAttack=False
+ServerPVE=False  
+CanPVPAttack=False  
 ServerPVPCanAttack=True
 
 

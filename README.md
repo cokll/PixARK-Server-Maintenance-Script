@@ -2,7 +2,7 @@
 
 This powershell script will install, backup, update and reboot your pixark server when executed.
 
-To install simply copy the folders to your C: Drive and edit the variables section of StartPixArkServer.ps1 in order to configure your PixARK Server.
+To install simply copy the folders and the script to your C: Drive and edit the variables section of StartPixArkServer.ps1 in order to configure your PixARK Server.
 
 You can create a Scheduled Task with the template provided to run it on a schedule
 

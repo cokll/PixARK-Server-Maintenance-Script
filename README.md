@@ -32,7 +32,7 @@ CanPVPAttack=False
 ServerPVPCanAttack=True
 
 
-Disclaimer : 
+# Disclaimer : 
 
 I'm am in no way responsible for anything that this script will do, you are responsible for reading and understanding what this script will do before executing it.
 
